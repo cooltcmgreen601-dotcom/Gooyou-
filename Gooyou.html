@@ -1,0 +1,81 @@
+<!doctype html>
+
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Gooyou</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Product+Sans:wght@400&display=swap" rel="stylesheet">
+    <style>
+      html, body { height: 100%; margin: 0; display: flex; flex-direction: column; align-items: center; font-family: 'Roboto', sans-serif; }
+      body { margin-top: 0; }
+      .title-container { 
+        display: flex; 
+        align-items: center; 
+        gap: 15px;
+        margin-bottom: 20px;
+      }
+      h1 { 
+        font-size: 60px;
+        font-weight: 350;
+        letter-spacing: -1.5px;
+        display: flex;
+        font-family: 'Product Sans', sans-serif;
+      }
+      .blue { color: #4285F4; }
+      .red { color: #DB4437; }
+      .yellow { color: #F4B400; }
+      .green { color: #0F9D58; }
+      .youtube-button {
+        width: 60px;
+        height: 40px;
+        background-color: #FF0000;
+        border-radius: 8px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+      }
+      .youtube-button span {
+        font-weight: 700;
+        font-size: 24px;
+        background: linear-gradient(90deg, #DB4437 0%, #F4B400 35%, #4285F4 65%, #0F9D58 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+      }
+      .search-container { display: flex; flex-direction: column; align-items: center; gap: 10px; position: relative; top: -50px; }
+      .search-box { width: 350px; height: 40px; border: 1px solid #ccc; border-radius: 4px; padding: 0 10px; color: #999; font-size: 16px; font-family: 'Roboto', sans-serif; }
+      .search-button { width: 150px; height: 40px; background-color: #ccc; border: none; border-radius: 4px; color: #fff; font-size: 16px; cursor: pointer; text-align: center; line-height: 40px; font-family: 'Roboto', sans-serif; }
+      .videos-container { display: flex; flex-direction: column; align-items: center; gap: 20px; margin-top: 20px; }
+      iframe { width: 360px; height: 203px; border: none; } /* un poco más pequeño */
+    </style>
+  </head>
+  <body>
+    <div class="title-container">
+      <div class="youtube-button">
+        <span>G</span>
+      </div>
+      <h1>
+        <span class="blue">G</span><span class="red">o</span><span class="yellow">o</span><span class="blue">y</span><span class="green">o</span><span class="red">u</span>
+      </h1>
+    </div>
+    <div class="search-container">
+      <input type="text" class="search-box" placeholder="Search Gooyou or type URL">
+      <div class="search-button">Gooyou Search</div>
+    </div>
+    <div class="videos-container">
+      <iframe src="https://www.youtube.com/embed/idvDS-Ii5mQ" allowfullscreen></iframe>
+      <iframe src="https://www.youtube.com/embed/pEhJbl8USqw" allowfullscreen></iframe>
+      <iframe src="https://www.youtube.com/embed/J5u4LLuzCt0" allowfullscreen></iframe>
+      <iframe src="https://www.youtube.com/embed/WLpe5Ik30u0" allowfullscreen></iframe>
+      <iframe src="https://www.youtube.com/embed/6gITnE-mrnQ" allowfullscreen></iframe>
+      <iframe src="https://www.youtube.com/embed/mjrvQNZx6rU" allowfullscreen></iframe>
+      <iframe src="https://www.youtube.com/embed/MnSA73p6Kn4" allowfullscreen></iframe>
+      <iframe src="https://www.youtube.com/embed/Sl5nNBJUhiw" allowfullscreen></iframe>
+      <iframe src="https://www.youtube.com/embed/Af586Mz5zUQ" allowfullscreen></iframe>
+      <iframe src="https://www.youtube.com/embed/oFKYSSPMsp0" allowfullscreen></iframe>
+      <iframe src="https://www.youtube.com/embed/8EkRUb5dmgE" allowfullscreen></iframe>
+    </div>
+  </body>
+</html>
